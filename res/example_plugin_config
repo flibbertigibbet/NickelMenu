@@ -32,4 +32,4 @@ menu_item :main    :> Landscape         :nickel_orientation :landscape
 menu_item :main    :> Reverse Portrait  :nickel_orientation :inverted_portrait
 menu_item :main    :> Reverse Landscape :nickel_orientation :inverted_landscape
 
-menu_item :main    :> Example Plugin    :nm_gui_plugin      :/usr/local/Kobo/plugins/example/libnmexampleplugin.so
+menu_item :main    :> Example Plugin    :nm_gui_plugin      :/usr/local/Kobo/plugins/example.so

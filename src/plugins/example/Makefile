@@ -16,7 +16,7 @@ OBJCOPY       = $(CROSS_COMPILE)objcopy
 OBJDUMP       = $(CROSS_COMPILE)objdump
 STRINGS       = $(CROSS_COMPILE)strings
 
-override LIBRARY  := libnmexampleplugin.so
+override LIBRARY  := example.so
 override SOURCES  := NMExamplePlugin.cc NMDialog.cc
 override MOCS     := NMExamplePlugin.h NMDialog.h
 override CXXFLAGS += -fPIC
